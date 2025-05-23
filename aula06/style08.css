@@ -1,0 +1,16 @@
+div {
+    border: 5px outset rgb(229, 255, 0);
+    background-color: #f3a6e6;
+    color: rgb(27, 26, 26);
+    font-weight: 600;
+    text-align: center;
+    padding: 10px 2%;
+    width: 200px;
+  }
+  .outro{
+    border: 5px inset rgb(229, 255, 0);
+    background-color: #f3a6e6;
+    color: rgb(27, 26, 26);
+    font-weight: 600;
+    text-align: center;
+  }

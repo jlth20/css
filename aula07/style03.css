@@ -1,0 +1,19 @@
+div{
+    width: 200px;
+    height: 200px;
+    background-color: plum;
+    box-shadow: 25px 25px 50px dimgrey;
+    float: left;
+    margin-right: 120px;
+    margin-top: 40px;
+}
+#caixa2{
+    width: 200px;
+    height: 200px;
+    background-color: plum;
+    box-shadow: -25px  -25px 50px dimgrey;
+    float: right;
+}
+h2{
+    text-align: center;
+}

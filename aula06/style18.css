@@ -1,0 +1,21 @@
+.quadrado{
+    width:60px;
+    height:60px;
+  }
+  .vermelho{
+    background-color:red;
+  }
+  .verde{
+    background-color:green;
+  }
+  .azul{
+    background-color:blue;
+  }
+  .fixo{
+    position:fixed;
+    top:20px;
+    left:20px;
+  }
+  .relativo{
+    position:relative;
+  }

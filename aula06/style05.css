@@ -1,0 +1,16 @@
+div.relativo {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    left: 30px;
+    border: 3px solid #ad2138;
+  } 
+  
+  div.absoluto{
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+  }

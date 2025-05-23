@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        div {
+          background-color: #ffee99;
+          background-repeat: no-repeat;
+          width: 300px;
+          height: 180px;
+          margin-bottom: 12px;
+        }
+        
+        /* Este exemplo usa a propriedade `background` shorthand */
+        .example-one {
+          background: url("star10.png") #ffee99 2.5cm center no-repeat;
+        }
+        .example-two {
+          background: url("star10.png") #ffee99 right 4em top 1em no-repeat;
+        }
+        
+       
+        .example-three {
+          background-image: url("star10.png"), url("cat10.png");
+          background-position:
+            10px 20px,
+            right bottom 2em;
+        }
+        
+        
+            </style>
+</head>
+<body>
+    <div class="example-one">Exemplo Um</div>
+    <div class="example-two">Exemplo Dois</div>
+    <div class="example-three">Exemplo Três</div>
+</body>
+</html>

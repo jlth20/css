@@ -1,0 +1,21 @@
+.background{
+    position: static;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+
+}
+.foreground{
+    position: static;
+    top: 25px;
+    left: 100px;
+    z-index: 2;
+
+}
+.text{
+    position: static;
+    top: 25px;
+    left: 100px;
+    z-index: 3;
+
+}

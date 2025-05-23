@@ -1,0 +1,28 @@
+/* uso de id */
+#cabecalho{
+    background-color: #f1ebeb;
+    width: 600px;
+    padding: 40px 2%;
+    color: rgb(17, 6, 6);
+    text-align: center;
+}
+/* uso de id */
+#conteudo{
+    background-color: red;
+    width: 600px;
+    padding: 10px 2%;
+}
+/* uso de id */
+#rodape{
+    width: 600px;
+    padding: 10px 2%;
+    background-color: #888888;
+    color: white;
+    text-align: center;
+}
+/* uso de classe */
+.sessao_conteudo{
+    text-align: center;
+    width: 100%;
+    background-color: green;
+}

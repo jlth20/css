@@ -1,0 +1,19 @@
+div{
+    width: 50%;
+    position: relative;
+    left: 25%;
+    border-width: 6px;
+    font-size: 22px;
+}
+.dashed{
+    border-style: dashed;
+    top: 10px;
+}
+.box{
+    left: 25%;
+    position: relative;
+    border-width: 15px;
+    border-color: coral;
+    padding: 0;
+    border-style: double;
+}

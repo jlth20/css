@@ -1,0 +1,14 @@
+.box{
+background-color: aquamarine;
+border: 5px solid darkblue
+}
+.caixa{
+ width: 400px;
+ border: 5px solid peru;
+}
+.px{
+  width: 200px;
+}
+.percentual{
+ width: 80%;
+}

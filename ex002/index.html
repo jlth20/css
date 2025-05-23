@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+
+
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .background{
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: 1;
+        }
+        .foreground{
+            position: absolute;
+            top: 25px;
+            left: 100px;
+            z-index: 2;
+        }
+        .text{
+            position: absolute;
+            top: 25px;
+            left: 100px;
+            z-index: 3;
+            font-size: 20pt;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1> Teste de Imagem </h1>
+    <p><img src="imagem01.png" class= "background"alt="Imagem Fundo">
+   </p>
+   <p> <img src="imagem02.png" class="foreground"alt="segunda posição">
+   </p>
+   <p class="text">  Texto Posicionado </p>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoração de texto</title>
+    <style>
+        .under  { text-decoration: underline red; 
+        }        
+        .over  { text-decoration: wavy overline lime;
+        }
+        .line  {text-decoration: line-through;
+          }
+          .plain { text-decoration: none;
+          }
+
+          .underover { text-decoration: dashed underline overline;
+          }
+          
+          .thick { text-decoration: solid underline purple 4px;
+          }
+          
+          .blink { text-decoration: blink;
+          }        
+    </style>
+</head>
+<body>
+    <h1> Considere o exemplo de Decorações de Texto </h1>
+    <p class="under">Este texto tem uma linha abaixo de cor vermelho.</p>
+<p class="over">Este texto tem uma linha acimade cor Verde</p>
+<p class="line">Este texto tem uma linha cortando o texto.</p>
+<p>
+  Este  <a class="plain" href="#">link não será sublinhado</a>, como os links geralmente são por padrão. Tenha cuidado ao remover a decoração de texto em âncoras, pois os usuários geralmente dependem do sublinhado para denotar hiperlinks..
+</p>
+<p class="underover"> Este texto tem linhas acima <em> e </em> abaixo.</p>
+<p class="thick">
+    Este texto tem um <em>sublinhado roxo</em> muito grosso nos navegadores de suporte.
+</p>
+<p class="blink">
+    Este texto pode piscar, dependendo do navegador que você usa.
+</p>
+</body>
+</html>
