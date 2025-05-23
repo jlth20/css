@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form01.css">
+</head>
+<body>
+    <fieldset>
+     <legend>Dados pessoais</legend>
+     <label>Nome:<input type="text" name="nome" /></label><br /><br>
+     <label>Idade:<input type="text" name="idade" /></label><br />
+</fieldset>
+<fieldset>
+     <legend>Dados profissionais</legend>
+     <label>Escolaridade:
+     <select name="escolaridade">
+          <option value="em"> Ensino Médio </option>
+          <option value="nt"> Nível Técnico </option>
+          <option value="ns"> Nível Superior </option>
+     </select>
+     </label>
+     <br />
+     <label>Área de atuação
+          <input type="radio" name="cargo" value="1" checked> Gerência
+          <input type="radio" name="cargo" value="2" > Financeiro
+          <input type="radio" name="cargo" value="3" > Recepção
+     </label>
+</fieldset>
+<fieldset>
+  <legend>Personalia:</legend>
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="birthday">Birthday:</label>
+  <input type="date" id="birthday" name="birthday"><br><br>
+  <input type="submit" value="Submit">
+ </fieldset>
+</body>
+</html>
